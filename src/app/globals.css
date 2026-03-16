@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-parchment text-ink;
+}
+
+.card {
+  @apply rounded-2xl border border-amber-200 bg-white/80 p-4 shadow-sm;
+}
